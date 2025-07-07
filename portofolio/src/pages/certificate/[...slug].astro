@@ -1,0 +1,159 @@
+---
+import { type CollectionEntry, getCollection, render } from 'astro:content';
+
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ContactCTA from '../../components/ContactCTA.astro';
+import Hero from '../../components/Hero.astro';
+import Icon from '../../components/Icon.astro';
+import Pill from '../../components/Pill.astro'; // kalau kamu punya komponen ini
+
+interface Props {
+	entry: CollectionEntry<'certificate'>;
+}
+
+export async function getStaticPaths() {
+	const certificates = await getCollection('certificate');
+	return certificates.map((entry) => ({
+		params: { slug: entry.id },
+		props: { entry },
+	}));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+
+const {
+	title,
+	publishDate,
+	img,
+	img_alt,
+	description,
+	tags,
+} = entry.data;
+---
+
+<BaseLayout title={title} description={description}>
+	<div class="stack gap-20">
+		<div class="stack gap-15">
+			<header>
+				<div class="wrapper stack gap-2">
+					<a class="back-link" href="/certificate/"><Icon icon="arrow-left" /> Certificates</a>
+					<Hero title={title} align="start">
+						<div class="details">
+							<div class="meta">
+								<p class="date">{new Date(publishDate).toLocaleDateString('en-US', {
+									year: 'numeric',
+									month: 'long',
+									day: 'numeric',
+								})}</p>
+								<p class="description">{description}</p>
+							</div>
+							{tags?.length > 0 && (
+								<div class="tags">
+									{tags.map((tag) => <Pill>{tag}</Pill>)}
+								</div>
+							)}
+						</div>
+					</Hero>
+				</div>
+			</header>
+
+			<main class="wrapper">
+				<div class="stack gap-10 content">
+					{img && <img src={img} alt={img_alt ?? `Certificate: ${title}`} />}
+					<div class="content">
+						<Content />
+					</div>
+				</div>
+			</main>
+		</div>
+		<ContactCTA />
+	</div>
+</BaseLayout>
+
+<style>
+	header {
+		padding-bottom: 2.5rem;
+		border-bottom: 1px solid var(--gray-800);
+	}
+
+	.back-link {
+		display: none;
+	}
+
+	.details {
+		display: flex;
+		flex-direction: column;
+		gap: 1.5rem;
+		padding: 0.5rem;
+	}
+
+	.meta {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		font-size: var(--text-base);
+		color: var(--gray-300);
+	}
+
+	.tags {
+		display: flex;
+		gap: 0.5rem;
+		flex-wrap: wrap;
+	}
+
+	.content {
+		max-width: 65ch;
+		margin-inline: auto;
+	}
+
+	.content > :global(* + *) {
+		margin-top: 1rem;
+	}
+
+	.content :global(h1),
+	.content :global(h2),
+	.content :global(h3) {
+		margin-top: 2rem;
+		margin-bottom: 1rem;
+	}
+
+	.content :global(img) {
+		border-radius: 1rem;
+		box-shadow: var(--shadow-sm);
+		background: var(--gradient-subtle);
+		border: 1px solid var(--gray-800);
+	}
+
+	.back-link,
+	.content :global(a) {
+		text-decoration: underline;
+		text-decoration-color: transparent;
+		text-underline-offset: 0.25em;
+		transition: text-decoration-color var(--theme-transition);
+	}
+
+	.back-link:hover,
+	.back-link:focus,
+	.content :global(a:hover),
+	.content :global(a:focus) {
+		text-decoration-color: currentColor;
+	}
+
+	@media (min-width: 50em) {
+		.back-link {
+			display: block;
+			align-self: flex-start;
+		}
+
+		.details {
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		.meta {
+			max-width: 50%;
+		}
+	}
+</style>

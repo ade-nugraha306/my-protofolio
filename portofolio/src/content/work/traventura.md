@@ -37,3 +37,18 @@ This project aims to demonstrate backend proficiency, API design, and machine le
 ---
 
 > 🚀 *Built with passion, data, and the dream to make Indonesian tourism smarter.*
+
+---
+
+## Meet the Team
+[Zidan Nur Fauzi](https://github.com/zidannf)
+
+[Dai Bahtiar](https://github.com/DaiBahtiar2233)
+
+[Gusty Erlana Aldiansyah](https://github.com/gustyy901)
+
+[Laode Nur Nayanda](https://github.com/laodenaya)
+
+[Tandiyo Dwi Oktavian](https://github.com/TandiyoDwi)
+
+[Ade Nugraha](https://github.com/ade-nugraha306)

@@ -2,14 +2,39 @@
 import { getCollection } from 'astro:content';
 
 import BaseLayout from '../layouts/BaseLayout.astro';
-
 import ContactCTA from '../components/ContactCTA.astro';
-import PortfolioPreview from '../components/PortfolioPreview.astro';
+import CertificatePreview from '../components/CertificatePreview.astro'; 
 import Hero from '../components/Hero.astro';
 import Grid from '../components/Grid.astro';
 
-const projects = (await getCollection('work')).sort(
+
+const certificates = (await getCollection('certificate')).sort(
 	(a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf(),
 );
 ---
 
+<BaseLayout>
+	<div class="stack gap-20">
+		<main class="wrapper stack gap-8">
+			<Hero
+				title="My Certificate"
+				tagline="A glimpse of some certifications I've achieved."
+				align="start"
+			/>
+
+			{certificates.length === 0 ? (
+				<p>No certificate found yet. Stay tuned!</p>
+			) : (
+				<Grid variant="offset">
+					{certificates.map((certificate) => (
+						<li>
+							<CertificatePreview certificate={certificate} />
+						</li>
+					))}
+				</Grid>
+			)}
+		</main>
+
+		<ContactCTA />
+	</div>
+</BaseLayout>
