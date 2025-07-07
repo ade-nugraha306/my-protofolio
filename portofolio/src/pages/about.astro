@@ -1,8 +1,16 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Icon from '../components/Icon.astro';
+import type { iconPaths } from '../components/IconPaths';
 
 import ContactCTA from '../components/ContactCTA.astro';
 import Hero from '../components/Hero.astro';
+
+const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[] = [
+	{ label: 'GitHub', href: 'https://github.com/ade-nugraha306', icon: 'github-logo' },
+	{ label: 'Facebook', href: 'https://www.facebook.com/eds.gaming.2005/', icon: 'facebook-logo' },
+	{ label: 'LinkedIn', href: 'https://www.linkedin.com/in/ade-nugraha-85aa25351/', icon: 'linkedin-logo' },
+];
 ---
 
 <BaseLayout title="About | Ade Nugraha" description="About Ade Nugraha">
@@ -24,22 +32,11 @@ import Hero from '../components/Hero.astro';
 				<h2 class="section-title">Background</h2>
 				<div class="content">
 					<p>
-						Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy.
-						Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum
-						id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla
-						pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
+						I'm a passionate web developer with a strong foundation in JavaScript ecosystems, currently focused on building modern, scalable web applications. I began my journey exploring C++ and Python, later diving deep into PHP and Laravel. As my skills evolved, I transitioned into JavaScript, mastering both front-end and back-end technologies, especially through projects powered by Next.js, PostgreSQL, and Prisma.
 					</p>
+					<br>
 					<p>
-						Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis
-						natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl
-						condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel
-						quam elementum pulvinar etiam non.
-					</p>
-					<p>
-						Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet
-						eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra.
-						Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl
-						pretium fusce.
+						Beyond the code, I value clean architecture, consistency, and developer-friendly tooling. My recent experiences include building mock APIs, handling real-time data, and working within collaborative environments where clarity and adaptability are essential. I'm always exploring new challenges and aiming to bridge the gap between user experience and solid engineering.
 					</p>
 				</div>
 			</section>
@@ -55,9 +52,25 @@ import Hero from '../components/Hero.astro';
 					<p>Web Backend Developer</p>
 				</div>
 			</section>
+			<section>
+				<h2 class="section-title">Tech Stack</h2>
+				<div class="content">
+					<p>JavaScript</p>
+				</div>
+				<div class="content">
+					<p>TypeScript</p>
+				</div>
+				<div class="content">
+					<p>PostgreSQL</p>
+				</div>
+				<div class="content">
+					<p>Prisma</p>
+				</div>
+				<div class="content">
+					<p>NextJS</p>
+				</div>
+			</section>
 		</main>
-
-		<ContactCTA />
 	</div>
 </BaseLayout>
 
