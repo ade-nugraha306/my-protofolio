@@ -60,32 +60,6 @@ const certificates = (await getCollection('certificate'))
 		<main class="wrapper stack gap-20 lg:gap-48">
 			<section class="section with-background with-cta">
 				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>My Past Projects</h3>
-					<p>Take a look below at some of my featured projects.</p>
-				</header>
-
-				<div class="gallery">
-					<Grid variant="offset">
-						{
-							projects.map((project) => (
-								<li>
-									<ProjectsPreview project={project} />
-								</li>
-							))
-						}
-					</Grid>
-				</div>
-
-				<div class="cta">
-					<CallToAction href="/projects/">
-						View All
-						<Icon icon="arrow-right" size="1.2em" />
-					</CallToAction>
-				</div>
-			</section>
-
-			<section class="section with-background with-cta">
-				<header class="section-header stack gap-2 lg:gap-4">
 					<h3>Certificates</h3>
 					<p>
 						I have a couple of certifications, take a look below to see more
@@ -105,6 +79,32 @@ const certificates = (await getCollection('certificate'))
 				</div>
 				<div class="cta">
 					<CallToAction href="/work/">
+						View All
+						<Icon icon="arrow-right" size="1.2em" />
+					</CallToAction>
+				</div>
+			</section>
+
+			<section class="section with-background with-cta">
+				<header class="section-header stack gap-2 lg:gap-4">
+					<h3>My Past Projects</h3>
+					<p>Take a look below at some of my featured projects.</p>
+				</header>
+
+				<div class="gallery">
+					<Grid variant="offset">
+						{
+							projects.map((project) => (
+								<li>
+									<ProjectsPreview project={project} />
+								</li>
+							))
+						}
+					</Grid>
+				</div>
+
+				<div class="cta">
+					<CallToAction href="/projects/">
 						View All
 						<Icon icon="arrow-right" size="1.2em" />
 					</CallToAction>
