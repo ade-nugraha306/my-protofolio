@@ -1,0 +1,3 @@
+[build]
+  command = "npm run build"  # atau "yarn build" kalo pake yarn
+  publish = "dist"           # folder output build Astro
