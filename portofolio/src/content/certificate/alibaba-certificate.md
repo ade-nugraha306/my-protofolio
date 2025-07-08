@@ -9,4 +9,4 @@ tags:
   - Certificate
 ---
 
-A Certificate from Alibaba & DTS for students that successfully fully graduated
+A Certificate from Alibaba & DTS for students that successfully graduated
