@@ -13,13 +13,18 @@ tags:
 # Arunika
 **Manage your event**
 
-lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Arunika adalah solusi digital untuk manajemen kehadiran acara di lingkungan mahasiswa Teknik Informatika dan teman-teman sejurusan. Dengan sistem absensi berbasis QR Code, setiap kehadiran jadi lebih praktis, efisien, dan real-time.
 
 ## What is Arunika?
-lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Arunika merupakan website absensi acara yang dikembangkan oleh tim RUJAK (Ruang Ujian dan Kajian). Nama "Arunika" sendiri berarti cahaya mentari pertama di pagi hari—sebuah simbol dari awal yang baru. Sesuai dengan maknanya, Arunika hadir sebagai titik awal digitalisasi kegiatan akademik dan non-akademik mahasiswa.
 
 ## Features
-lorem ipsum dolor sit amet, consectetur adipiscing elit.
+- ✅ **QR Code-based Attendance**  
+  Mahasiswa cukup scan QR Code di tempat acara untuk mengisi kehadiran.
+- 📅 **Event Management Dashboard**  
+  Admin bisa mengatur acara, dan siapapun itu dapat melihat siapa yang hadir, dan mengunduh data kehadiran.
+- 📊 **Realtime Absence Tracking**  
+  Melacak statistik kehadiran secara langsung dan otomatis.
 
 ## Tech Stack
 - **PHP Native**
@@ -27,19 +32,28 @@ lorem ipsum dolor sit amet, consectetur adipiscing elit.
 - **Tailwind CSS**
 
 ## Purpose
-lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Arunika dikembangkan sebagai inisiatif mahasiswa untuk mempermudah dokumentasi kehadiran di setiap acara kampus. Dengan pendekatan digital ini, kami berharap proses administratif bisa lebih hemat waktu, mengurangi penggunaan kertas, dan memberikan pengalaman yang modern serta user-friendly.
 
 ---
 
-> lorem ipsum dolor sit amet, consectetur adipiscing elit.
+> "Arunika is the dawn of our digital transformation — simple, elegant, and purposeful."
 
 ---
 
 ## Meet the Team
-[Abdul Wahab Syahranie](https://github.com/wahabsyahranie)
+[Abdul Wahab Syahranie](https://github.com/wahabsyahranie)  
+_Project Lead_
 
-[Adam Refaldi]()
+[Adam Refaldi]()  
+_UI/UX & Frontend_
 
-[Dimas Kevin Putra Ar Rofi](https://github.com/pinzii-maz)
+[Dimas Kevin Putra Ar Rofi](https://github.com/pinzii-maz)  
+_Frontend_
 
-[Ade Nugraha](https://github.com/ade-nugraha306)
+[Ade Nugraha](https://github.com/ade-nugraha306)  
+_Backend_
+
+---
+
+> [Click Me to visit](https://arunika.tipolnes.com/)
+---

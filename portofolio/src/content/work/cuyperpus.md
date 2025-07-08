@@ -31,6 +31,15 @@ CuyPerpus is our very first project in the realm of **Software Engineering**, bu
 ---
 
 ## 👥 Meet the Team
-- [Fahlevi Miasya Rangkuti](https://github.com/Rangkuti-Code)  
-- [Gusty Erlana Aldiansyah](https://github.com/gustyy901)  
-- [Ade Nugraha](https://github.com/ade-nugraha306)
+[Fahlevi Miasya Rangkuti](https://github.com/Rangkuti-Code)
+_UI/UX_
+
+[Gusty Erlana Aldiansyah](https://github.com/gustyy901)
+_Project Manager_
+
+[Ade Nugraha](https://github.com/ade-nugraha306)
+_Fullstack Developer_
+
+---
+> [Click Me to visit]()
+---
