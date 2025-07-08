@@ -41,25 +41,25 @@ This project aims to demonstrate backend proficiency, API design, and machine le
 ---
 
 ## Meet the Team
-[Zidan Nur Fauzi](https://github.com/zidannf)
+[Zidan Nur Fauzi](https://github.com/zidannf "Zidan's Github Profile")
 _Project Leader & UI/UX_
 
-[Dai Bahtiar](https://github.com/DaiBahtiar2233)
+[Dai Bahtiar](https://github.com/DaiBahtiar2233 "Dai's Github Profile")
 _Machine Learning Devleoper_
 
-[Laode Nur Nayanda](https://github.com/laodenaya)
+[Laode Nur Nayanda](https://github.com/laodenaya "Naya's Github Profile")
 _Machine Learning Devleoper_
 
-[Tandiyo Dwi Oktavian](https://github.com/TandiyoDwi)
+[Tandiyo Dwi Oktavian](https://github.com/TandiyoDwi "Tandiyo's Github Profile")
 _Machine Learning Devleoper_
 
-[Gusty Erlana Aldiansyah](https://github.com/gustyy901)
+[Gusty Erlana Aldiansyah](https://github.com/gustyy901 "Aldi's Github Profile")
 _Frontend Developer_
 
-[Ade Nugraha](https://github.com/ade-nugraha306)
+[Ade Nugraha](https://github.com/ade-nugraha306 "Ade's Github Profile")
 _Backend Developer_
 
 
 ---
-> [Click Me to visit](https://github.com/ade-nugraha306/traventura)
+> [Click Me to visit](https://github.com/ade-nugraha306/traventura "Visit Traventura repo project")
 ---

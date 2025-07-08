@@ -13,18 +13,18 @@ tags:
 # Arunika
 **Manage your event**
 
-Arunika adalah solusi digital untuk manajemen kehadiran acara di lingkungan mahasiswa Teknik Informatika dan teman-teman sejurusan. Dengan sistem absensi berbasis QR Code, setiap kehadiran jadi lebih praktis, efisien, dan real-time.
+Arunika is a digital solution for event attendance management for Informatics Engineering students and friends. With a QR Code-based attendance system, every attendance becomes more practical, efficient, and real-time.
 
 ## What is Arunika?
-Arunika merupakan website absensi acara yang dikembangkan oleh tim RUJAK (Ruang Ujian dan Kajian). Nama "Arunika" sendiri berarti cahaya mentari pertama di pagi hari—sebuah simbol dari awal yang baru. Sesuai dengan maknanya, Arunika hadir sebagai titik awal digitalisasi kegiatan akademik dan non-akademik mahasiswa.
+Arunika is an event attendance website developed by the RUJAK (Ruang Ujian dan Kajian/Exam and Study Room) team. The name “Arunika” itself means the first light of the sun in the morning-a symbol of a new beginning. In accordance with its meaning, Arunika is present as a starting point for digitizing student academic and non-academic activities.
 
 ## Features
 - ✅ **QR Code-based Attendance**  
-  Mahasiswa cukup scan QR Code di tempat acara untuk mengisi kehadiran.
+  Students can simply scan the QR Code at the event venue to fill in attendance.
 - 📅 **Event Management Dashboard**  
-  Admin bisa mengatur acara, dan siapapun itu dapat melihat siapa yang hadir, dan mengunduh data kehadiran.
+  Admin can organize events, and anyone can see who attended, and download attendance data.
 - 📊 **Realtime Absence Tracking**  
-  Melacak statistik kehadiran secara langsung dan otomatis.
+  Track live and automatic attendance statistics.
 
 ## Tech Stack
 - **PHP Native**
@@ -32,7 +32,7 @@ Arunika merupakan website absensi acara yang dikembangkan oleh tim RUJAK (Ruang 
 - **Tailwind CSS**
 
 ## Purpose
-Arunika dikembangkan sebagai inisiatif mahasiswa untuk mempermudah dokumentasi kehadiran di setiap acara kampus. Dengan pendekatan digital ini, kami berharap proses administratif bisa lebih hemat waktu, mengurangi penggunaan kertas, dan memberikan pengalaman yang modern serta user-friendly.
+Arunika was developed as a student initiative to simplify attendance documentation at every campus event. With this digital approach, we hope that the administrative process can be more time-efficient, reduce the use of paper, and provide a modern and user-friendly experience.
 
 ---
 
@@ -41,19 +41,19 @@ Arunika dikembangkan sebagai inisiatif mahasiswa untuk mempermudah dokumentasi k
 ---
 
 ## Meet the Team
-[Abdul Wahab Syahranie](https://github.com/wahabsyahranie)  
+[Abdul Wahab Syahranie](https://github.com/wahabsyahranie "Wahab's Github Profile")  
 _Project Lead_
 
-[Adam Refaldi]()  
+[Adam Refaldi](https://github.com/me "Adam's Github Profile")  
 _UI/UX & Frontend_
 
-[Dimas Kevin Putra Ar Rofi](https://github.com/pinzii-maz)  
+[Dimas Kevin Putra Ar Rofi](https://github.com/pinzii-maz "Dimas Github Profile")  
 _Frontend_
 
-[Ade Nugraha](https://github.com/ade-nugraha306)  
+[Ade Nugraha](https://github.com/ade-nugraha306 "Ade's Github Profile")  
 _Backend_
 
 ---
 
-> [Click Me to visit](https://arunika.tipolnes.com/)
+> [Click Me to visit](https://arunika.tipolnes.com/ "Visit Arunika website")
 ---

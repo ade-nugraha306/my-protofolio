@@ -31,15 +31,15 @@ CuyPerpus is our very first project in the realm of **Software Engineering**, bu
 ---
 
 ## 👥 Meet the Team
-[Fahlevi Miasya Rangkuti](https://github.com/Rangkuti-Code)
+[Fahlevi Miasya Rangkuti](https://github.com/Rangkuti-Code "Fahlevi's Github Profile")
 _UI/UX_
 
-[Gusty Erlana Aldiansyah](https://github.com/gustyy901)
+[Gusty Erlana Aldiansyah](https://github.com/gustyy901 "Aldi's Github Profile")
 _Project Manager_
 
-[Ade Nugraha](https://github.com/ade-nugraha306)
+[Ade Nugraha](https://github.com/ade-nugraha306 "Ade's Github Profile")
 _Fullstack Developer_
 
 ---
-> [Click Me to visit]()
+> [Click Me to visit](https://example.com/ "Visit CuyPerpus website")
 ---
