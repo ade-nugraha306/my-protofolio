@@ -59,7 +59,6 @@ _Frontend Developer_
 [Ade Nugraha](https://github.com/ade-nugraha306 "Ade's Github Profile")
 _Backend Developer_
 
-
 ---
 > [Click Me to visit](https://github.com/ade-nugraha306/traventura "Visit Traventura repo project")
 ---
