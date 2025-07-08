@@ -1,7 +1,7 @@
 ---
 title: Arunika
 publishDate: 2024-10-10 00:00:00
-img: /assets/stock-4.jpg
+img: /assets/projects/rujak.jpeg
 img_alt: Soft pink and baby blue water ripples together in a subtle texture.
 description: |
   Our student union project for event management.

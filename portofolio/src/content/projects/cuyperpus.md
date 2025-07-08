@@ -1,7 +1,7 @@
 ---
 title: CuyPerpus
 publishDate: 2024-09-13 00:00:00
-img: /assets/stock-4.jpg
+img: /assets/projects/logo-cuyperpus.jpg
 img_alt: Soft pink and baby blue water ripples together in a subtle texture.
 description: |
   Our first Software Engineering project — a simple yet functional online library platform.
