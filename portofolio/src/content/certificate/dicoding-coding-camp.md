@@ -10,8 +10,10 @@ tags:
 ---
 
 A Certificate from Dicoding Academy for students that successfully graduated from learning path "Frontend - Backend Developer"
+---
 
 > 10 Febuary 2025 - July 16 2025
+---
 
 Details: 
 - Technical Skills: Proficient in HTML, CSS, and JavaScript

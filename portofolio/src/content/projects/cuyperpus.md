@@ -42,4 +42,3 @@ _Fullstack Developer_
 
 ---
 > [Click Me to visit](https://example.com/ "Visit CuyPerpus website")
----
